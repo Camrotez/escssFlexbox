@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+body aside {
+  height: 100%;
+  width: 200px;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+}
+body aside .first {
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 0 0 2rem;
+}
+body aside .first .logo {
+  height: 5rem;
+  width: 5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body aside .first .logo p {
+  color: white;
+  font-size: 1.5rem;
+}
+body aside .first ul li {
+  color: #2b2b2b;
+  cursor: pointer;
+}
+body aside .first ul li:hover {
+  color: #2b2bb2;
+}
+body aside .second {
+  margin-top: auto;
+}
+body aside .second .endbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 3rem 0.5rem;
+}
+body aside .second .endbar section {
+  height: 8rem;
+  width: 8rem;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body aside .second .endbar section p {
+  color: white;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
